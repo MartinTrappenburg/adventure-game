@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adventure Game</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<main>
+		<div id="MainScreen">
+			<section id="status"></section>
+			<audio  id="MainTheme" autoplay="" loop="" src="AssassinsCreed4.mp3"></audio>
+			<section id="level_title">Welcome, Asssassin.</section>
+
+			<nav onload="time">
+				<button id="way1">Train stealth abilities</button>
+				<button id="way2">Train combat abilities</button>
+				<button id="way3">Train parkour abilities</button>
+			</nav>
+
+			<img src="edit.jpg">
+		</div>
+		
+		<div id="Level1_stealth">
+			<section id="status"></section>
+
+			<section id="level_title">You are tasked with killing Laureano Torres.</section>
+
+			<nav>
+				<button id="Stealthway1_lvl1">Go through forrest</button>
+				
+				<button id="Stealthway2_lvl1">Go through the cave</button>
+			</nav>
+			<img src="cave.jpg">
+			<img src="forest2.jpg">
+		</div>
+		
+		<div id="Level2_stealth">
+			<section id="status"></section>
+
+			<section id="level_title">A guard, Take him out.</section>
+
+			<nav>
+				<button id="Stealthway1_lvl2">Backstab</button>
+				<button id="Stealthway2_lvl2">drop on him</button>
+			</nav>
+			<img src="Guard.jpg">
+		</div>
+
+		<div id="GameOver">
+			<section id="status"></section>
+			<section id="level_title">YOU DIED. YOU SUCK. REFRESH TO RESTART NOOB.</section>
+			<section id="description">A huge rock fell on your face squashing you like a bug.</section>
+			<audio id="YouSuck" src="YouSuck.mp3" loop=""></audio>
+			<img id="GAY" src="GameOver.jpg">
+		</div>
+
+		<div id="GameOver2">
+			<section id="status"></section>
+			<section id="level_title">YOU DIED. YOU SUCK. REFRESH TO RESTART NOOB.</section>
+			<section id="description">He spotted you  so He shot you first.(REFERENCE TIME)</section>
+			<audio id="YouSuck" src="YouSuck.mp3" loop=""></audio>
+			<img id="GAY" src="GameOver.jpg" >
+		</div>
+
+		<div id="Level3_stealth">
+			<section id="status"></section>
+
+			<section id="level_title">The mansion.</section>
+
+			<nav>
+				<button id="Stealthway1_lvl3">explore</button>
+				<button id="Stealthway2_lvl3"></button>
+			</nav>
+			<img src="mansion.png" width="517" height="291">
+		</div>
+
+	</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>	

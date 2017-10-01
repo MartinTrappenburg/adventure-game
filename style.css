@@ -1,0 +1,50 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: silver;
+	font-family: sans-serif;
+}
+#Level1_stealth{
+	visibility: hidden;
+}
+#Level2_stealth{
+	visibility: hidden;
+}
+
+#level_title {
+
+	font-size: 18px;
+	color: black;		
+	font-weight: bold;
+}
+
+#mainscreen nav{
+top: 5vh;
+position: absolute;
+}
+
+#mainscreen img{
+	position: absolute;
+	top: 10vh;
+}
+
+#GameOver {
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+}
+
+#GameOver2 {
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+}
+
+#Level3_stealth	{
+	visibility: hidden;
+	top: 0px;
+	position: absolute;
+}
