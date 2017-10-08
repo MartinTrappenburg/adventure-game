@@ -1,6 +1,3 @@
-
-
-
 function onclickway1_Stealth() {
 	document.getElementById('MainScreen').style.visibility = "hidden";
 	document.getElementById('Level1_stealth').style.visibility = "visible";
@@ -34,7 +31,6 @@ function Combat() {
 			document.getElementById("YouSuck").play();
 			document.getElementById("MainTheme").pause();
 			document.getElementById("Level2_stealth").style.visibility = "hidden";
-
 	}
 
 	if (battleStealth == 0) {
@@ -42,4 +38,11 @@ function Combat() {
 		document.getElementById("Level2_stealth").style.visibility= "hidden";
 	}
 }
-document.getElementById("Stealthway1_lvl2").addEventListener("click", Combat);
+document.getElementById("Stealthway2_lvl2").addEventListener("click", Combat);
+
+function Explore() {
+	document.getElementById("Level4_stealth_Explore").style.visibility = "visible";
+	document.getElementById("Level3_stealth").style.visibility = "hidden";
+	document.getElementById("Level4_stealth_Explore").style.position = "absolute";
+}
+document.getElementById("Stealthway1_lvl3").addEventListener("click", Explore);

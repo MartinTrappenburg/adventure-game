@@ -48,3 +48,8 @@ position: absolute;
 	top: 0px;
 	position: absolute;
 }
+
+#Level4_stealth_Explore {
+	visibility: hidden;
+	top: 0px;
+}
