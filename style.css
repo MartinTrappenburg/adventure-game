@@ -3,15 +3,61 @@
 	margin: 0px;
 }
 
+#Level5_Stealth_Explore_Dead {
+	visibility: hidden;
+	top: 0px;
+	position: absolute;
+}
+
+#Best_End {
+	visibility: hidden;
+	top: 0px;
+	position: absolute;
+}
+
+#GameOver3 {
+	visibility: hidden;
+	top: 0px;
+	position: absolute;
+}
+
+#Level4_Stealth_QuickKill_Search {
+	top: 0px;
+	visibility: hidden;
+	position: absolute;
+}
+
+#GameOverHome {
+	top: 0px;
+	position: absolute;
+	visibility: hidden;
+}
+
 body {
 	background-color: silver;
 	font-family: sans-serif;
 }
-#Level1_stealth{
+
+#Level4_Stealth_QuickKill {
+	top: 0px;
+	position: absolute;
 	visibility: hidden;
 }
+#Level0_stealth{
+	visibility: hidden;
+	top: 0px;
+}
+
+#Level1_stealth{
+	visibility: hidden;
+	top: 0px;
+	position: absolute;
+}
+
 #Level2_stealth{
 	visibility: hidden;
+	top: 0px;
+	position: absolute;
 }
 
 #level_title {
@@ -49,7 +95,12 @@ position: absolute;
 	position: absolute;
 }
 
-#Level4_stealth_Explore {
+#Level4_Stealth_Explore {
+	visibility: hidden;
+	top: 0px;
+}
+
+#Level5_Stealth_Explore {
 	visibility: hidden;
 	top: 0px;
 }
